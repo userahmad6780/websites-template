@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Project</title>
+  </head>
+  <body>
+    <!-- website head nav -->
+    <div class="head">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-xs-2 col-sm-2 col-md-4 col-lg-4 col-xl-3 searchbarleft">
+            <form class="d-flex custom-form">
+              <input
+                class="custom-search-box me-2"
+                type="search"
+                aria-label="Search"
+              />
+              <button class="searchicon">
+                <i class="fa fa-search" aria-hidden="true"></i>
+              </button>
+            </form>
+            <nav class="navbar navbar-expand-lg navbar-light sticky-top hid1">
+              <button
+                class="navbar-toggler firstnav"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="first-nav-item" aria-current="page" href="#">Sign Up</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="first-nav-item" href="#">Login</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="first-nav-item" href="#">RSS Feeds </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="first-nav-item" href="#">Archieved News</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+
+          <div class="col-xs-2 col-sm-2 col-md-8 col-lg-8 col-xl-9 two">
+            <nav class="navbar navbar-expand-lg navbar-light sticky-top hid2">
+              <button
+                class="navbar-toggler firstnav"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="first-nav-item" aria-current="page" href="#">Sign Up</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="first-nav-item" href="#">Login</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="first-nav-item" href="#">RSS Feeds </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="first-nav-item" href="#">Archieved News</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+
+          <div class="col-lg-4 col-xl-3 searchbarright">
+            <form class="d-flex custom-form">
+              <input
+                class="custom-search-box me-2"
+                type="search"
+                aria-label="Search"
+              />
+              <button class="searchicon">
+                <i class="fa fa-search" aria-hidden="true"></i>
+              </button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- website head text and icons -->
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-8 col-xl-8">
+          <div class="logo">
+            <a href="#" class="navbar-brand">
+              <img src="./img/logo.jpg" alt="logo"
+            /></a>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+          <div class="icon-pack">
+            <button class="socialicon">
+              <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </button>
+
+            <button class="socialicon">
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+            </button>
+            <button class="socialicon">
+              <i class="fa fa-pinterest" aria-hidden="true"></i>
+            </button>
+
+            <button class="socialicon">
+              <i class="fa fa-google-plus" aria-hidden="true"></i>
+            </button>
+
+            <button class="socialicon">
+              <i class="fa fa-rss" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- next nav bar -->
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light background-light">
+        <div class="tex">
+          <h3>NAVIGATION</h3>
+        </div>
+        <div class="sidebtn">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav second-nav">
+            <a class="second-link active" aria-current="page" href="#"
+              >HOMEPAGE</a
+            >
+            <a class="second-link" href="#">STYLE DEMO</a>
+            <a class="second-link" href="#">FULL WIDTH</a>
+            <a class="second-link" href="#">DROP DOWN</a>
+            <a class="second-link" href="#">GALLARY</a>
+            <a class="second-link" href="#">PORTFOLIO</a>
+            <a class="second-link" href="#">LINK TEXT</a>
+            <a class="second-link" href="#">LONG LINK TEXT</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- main front -->
+
+    <div class="container front">
+      <div class="row">
+        <div class="picture col-md-6 col-lg-6">
+          <img class="img-fluid pic" src="./img/3.jpg" alt="picture" />
+        </div>
+
+        <div class="heading col-md-6 col-lg-6">
+          <h1>A HUGE TITLE HERE</h1>
+
+          <p>
+            Cursuspenatisaccum ut curabitur nulla tellus tor ames a in curabitur
+            pede. Idet mollisi eros dis orci congue elis et curabitur consequam
+            intesque. Curabiturpisametur in ante.
+          </p>
+          <a href="#">READ MORE >></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- three coulems -->
+
+    <div class="threecolums">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-4 col-lg-4 box">
+            <h3>A Little About Us</h3>
+            <div class="aboutimg">
+              <img
+                class="box1-img img-fluid"
+                src="./img/4.png"
+                alt="about us"
+              />
+            </div>
+
+            <div class="aboutparagraph">
+              <p>
+                Justoid nonummy laoreet phasellent penatoque in antesque pellus
+                elis eget tincidunt. Nequatdui laorem justo a non tellus laoreet
+                tincidunt ut vel velit nonummy laoreet phasellent penatoque in
+                antesque pellus elis eget tincidunt.
+              </p>
+              <p>
+                Idenim semper pellente velis felit ac. Justoid nonummy laoreet
+                phasellent penatoque in antesque pellus elis eget tincidunt.
+              </p>
+              <a href="#">READ MORE About Us >></a>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-4 box">
+            <h3>Some Of Our Services</h3>
+
+            <div class="servicecontainer">
+              <div class="servicegrid">
+                <div class="serviceimage">
+                  <img
+                    class="box2-img img-fluid"
+                    src="./img/2.jpg"
+                    alt="five"
+                  />
+                </div>
+                <div class="content">
+                  <h6>Service 1</h6>
+                  <p class="paragraph">
+                    Inteligula congue id elis donec sce sag ittis intes id
+                    laoreet aenean.
+                  </p>
+                </div>
+              </div>
+
+              <div class="servicegrid">
+                <div class="serviceimage">
+                  <img
+                    class="box2-img img-fluid"
+                    src="./img/1.jpg"
+                    alt="five"
+                  />
+                </div>
+                <div class="content">
+                  <h6>Service 2</h6>
+                  <p class="paragraph">
+                    Inteligula congue id elis donec sce sag ittis intes id
+                    laoreet aenean.
+                  </p>
+                </div>
+              </div>
+
+              <div class="servicegrid">
+                <div class="serviceimage">
+                  <img
+                    class="box2-img img-fluid"
+                    src="./img/5.jpg"
+                    alt="five"
+                  />
+                </div>
+                <div class="content">
+                  <h6>Service 3</h6>
+                  <p class="paragraph">
+                    Inteligula congue id elis donec sce sag ittis intes id
+                    laoreet aenean.
+                  </p>
+                </div>
+              </div>
+
+              <div class="servicegrid">
+                <div class="serviceimage">
+                  <img
+                    class="box2-img img-fluid"
+                    src="./img/6.jpg"
+                    alt="five"
+                  />
+                </div>
+                <div class="content">
+                  <h6>Service 4</h6>
+                  <p class="paragraph">
+                    Inteligula congue id elis donec sce sag ittis intes id
+                    laoreet aenean.
+                  </p>
+                </div>
+              </div>
+
+              <a href="#">View all of our services >></a>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-4 box">
+            <h3>What Our Clients Say</h3>
+
+            <div class="clients">
+              <div class="clientcontainer">
+                <div class="grid22">
+                  <div>
+                    <img class="image-fluid" src="./img/coma.jpg" alt="comma" />
+                  </div>
+                  <div>
+                    <h2 class="chead">Tommy Tanker - CEO</h2>
+                  </div>
+                </div>
+
+                <div class="cparagraph">
+                  <p>
+                    Justoid nonummy laoreet phasellent penatoque in antesque
+                    pellus elis eget tincidunt. Nequatdui laorem justo a non
+                    tellus laoreet tincidunt ut vel velit. Idenim semper
+                    pellente velis felit ac nullam pretium morbi lacus.
+                  </p>
+                  <a href="#">View This Project >></a>
+                </div>
+              </div>
+
+              <div class="clientcontainer">
+                <div class="grid22">
+                  <div>
+                    <img class="image-fluid" src="./img/coma.jpg" alt="comma" />
+                  </div>
+                  <div>
+                    <h2 class="chead">Tommy Tanker - CEO</h2>
+                  </div>
+                </div>
+
+                <div class="cparagraph">
+                  <p>
+                    Justoid nonummy laoreet phasellent penatoque in antesque
+                    pellus elis eget tincidunt. Nequatdui laorem justo a non
+                    tellus laoreet tincidunt ut vel velit. Idenim semper
+                    pellente velis felit ac nullam pretium morbi lacus.
+                  </p>
+                  <a href="#">View This Project >></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ////////////////////////////////////////////////////////////////////// -->
+
+    <!-- four coulems -->
+
+    <div class="container fourcoulems">
+      <div class="row">
+        <div class="col-md-3 tweet">
+          <hr />
+          <h3>LATEST TWEETS</h3>
+
+          <div class="tewtcont">
+            <div class="tweetcontent">
+              <p>
+                <a href="#">@namehere</a> Justoid nonummy laoreet phasellent
+                penatoque in antesque pellus elis eget tincidunt. Nequatdui
+                laorem justo a non tellus. 1 day ago
+              </p>
+            </div>
+
+            <div class="tweetcontent">
+              <p>
+                <a href="#">@namehere</a> Justoid nonummy laoreet phasellent
+                penatoque in antesque pellus elis eget tincidunt. Nequatdui
+                laorem justo a non tellus. 1 day ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 same">
+          <hr />
+          <h3>QUICK LINKS</h3>
+          <div class="linkss">
+            <a href="http://">Lorem ipsum dolor sit</a>
+            <a href="http://">Amet consectetur</a>
+            <a href="http://">Praesent vel sem id</a>
+            <a href="http://">Curabitur hendrerit est</a>
+            <a href="http://">Aliquam eget erat nec spain</a>
+            <a href="http://">Cras id augue nunc</a>
+            <a href="http://">In nec justo non</a>
+            <a href="http://">Vivamus mollis enim</a>
+            <a href="http://">Curabitur hendrerit</a>
+            <a href="http://">Sed a nulla urna</a>
+          </div>
+        </div>
+
+        <div class="col-md-3 same">
+          <hr />
+          <h3>LATEST BLOG POST</h3>
+
+          <div class="post">
+            <h6>Post Tittle</h6>
+            <p class="littlep">
+              <a class="littlea" href="#">Admin</a>, domainname.com Friday, 6th
+              April 2000
+            </p>
+            <p>
+              Nulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi
+              a tellus consequat imperdiet.
+            </p>
+            <a class="biga" href="#">Read More >></a>
+          </div>
+
+          <div class="post">
+            <h6>Post Tittle</h6>
+            <p class="littlep">
+              <a class="littlea" href="#">Admin</a>, domainname.com Friday, 6th
+              April 2000
+            </p>
+            <p>
+              Nulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi
+              a tellus consequat imperdiet.
+            </p>
+            <a class="biga" href="#">Read More >></a>
+          </div>
+        </div>
+
+        <div class="col-md-3 same">
+          <hr />
+          <h3>Contact Us</h3>
+          <div class="inputs">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Name" />
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Email" />
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Subject" />
+            </div>
+            <div class="col">
+              <textarea
+                type="text"
+                class="form-control"
+                rows="4"
+                placeholder="Message"
+              ></textarea>
+            </div>
+            <div class="col submt">
+              <input type="submit" class="form-control" value="SUBMIT" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+
+    <div class="row">
+      <div class="p-3">
+        <div class="container">
+          Copyright © 2020 Domain Name - All Rights Reserved
+          <a class="foot" href="#">Powerd by somedo main.com</a>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

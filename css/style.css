@@ -1,0 +1,543 @@
+body {
+  background-color: white;
+  font-family: none;
+}
+.container{
+  width: 80%;
+}
+.head {
+  background-color: rgb(186, 46, 31);
+}
+.first-nav-item {
+  font-size: 12px;
+  color: white;
+  text-decoration: none;
+  margin-left: 8px;
+  font-family: Georgia;
+}
+.searchbarleft{
+  display: none;
+}
+.searchicon {
+  position: absolute;
+  border: none;
+  color: white;
+  background-color: rgb(186, 46, 31);
+  width: 27px;
+  border-radius: 30px;
+  height: 26px;
+  margin-left: 21%;
+  margin-top: 4px;
+  font-family: Georgia;
+}
+.custom-form{
+  margin-top: 3px;
+}
+.nav-item a:hover {
+  color: rgb(8, 8, 8);
+}
+.custom-search-box{
+  width: 100%;
+  border-radius: 20px;
+  border-style: none;
+  border-color: white;
+  padding: 5px;
+}
+
+/* 2nddivstart */
+.icon-pack {
+ box-sizing: border-box;
+ margin-top: 50px;
+ margin-left: 46%;
+
+}
+.socialicon {
+  border: none;
+  color: white;
+  background-color: rgb(51, 51, 51);
+  width: 27px;
+  border-radius: 30px;
+  height: 26px;
+}
+.socialicon:hover {
+  background-color: rgb(238, 128, 47);
+}
+
+/* next nav bar */
+.background-light{
+  width: 100%;
+  background-image: linear-gradient(rgb(51, 51, 51) 50%, rgb(41, 41, 41) 50%);
+  border-radius: 5px;
+}
+.tex{
+  display: none;
+}
+.second-link {
+  color: white;
+  text-decoration: none;
+  margin-left: 34px;
+  font-size: 12px;
+  font-family: Georgia;
+}
+.second-nav a:hover {
+  color: rgb(221, 4, 4);
+}
+.navbar-toggler {
+  background-color: white;
+}
+
+/* main font */
+.front {
+  margin-top: 3%;
+}
+.pic {
+  width: 400px;
+  height: 440px;
+  object-fit: cover;
+  object-position: center left;
+}
+.heading h1 {
+  font-size: 86px;
+  font-family: Georgia;
+  font-weight: normal;
+  margin-top: 3%;
+}
+.heading p {
+  font-size: 16px;
+  font-weight: normal;
+  font-family: Georgia;
+}
+.heading a {
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 16px;
+  font-family: Georgia;
+  float: right;
+  color: rgb(186, 46, 31);
+}
+
+/* ////////////////////////////////////////////////////////////////////// */
+
+/* three coulems start */
+.threecolums {
+  background-color: rgb(242, 242, 242);
+  height: auto;
+}
+.box {
+  margin-top: 3%;
+}
+.box h3 {
+  font-size: 26px;
+  font-weight: normal;
+  font-family: Georgia;
+}
+.aboutimg {
+  margin-top: 10%;
+}
+.box1-img {
+  width: 290px;
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: cover;
+  border: solid;
+  padding: 3px;
+  border-width: thin;
+  border-color: rgb(223, 223, 223);
+}
+.aboutparagraph {
+  width: auto;
+  height: 150px;
+  font-family: Georgia;
+  font-size: 13px;
+  font-weight: normal;
+  margin-top: 15px;
+  text-align: justify;
+  color: rgb(135, 135, 135);
+}
+.box a {
+  font-size: 13px;
+  text-decoration: none;
+  font-family: Georgia;
+  font-weight: normal;
+  float: right;
+  color: rgb(185, 45, 31);
+}
+/* 2nd box start */
+.servicecontainer {
+  width: auto;
+  margin-top: 10%;
+}
+.serviceimage{
+  width: auto;
+}
+.box2-img {
+  width: 130px;
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: cover;
+}
+.box .servicegrid {
+  color: rgb(135, 135, 135);
+  display: flex;
+  grid-gap: 20px;
+  font-family: Georgia;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 2%;
+}
+.content{
+  width: auto;
+}
+.content .paragraph {
+  text-align: justify;
+  font-family: Georgia;
+  font-size: 13px;
+  color: rgb(135, 135, 135);
+}
+.content h6 {
+  font-family: Georgia;
+  font-size: 14px;
+  color: rgb(135, 135, 135);
+}
+/* 3rd box start */
+.clients {
+  width: auto;
+  margin-top: 9%;
+}
+.clientcontainer {
+  margin-bottom: 15%;
+}
+.grid22 {
+  display: flex;
+  grid-template-columns: repeat(2, 1fr);
+}
+.chead {
+  margin-top: 12%;
+  font-size: 16px;
+  font-weight: normal;
+  color: rgb(135, 135, 135);
+  font-family: Georgia;
+}
+.cparagraph {
+  font-size: 13px;
+  font-family: Georgia;
+  text-align: justify;
+  color: rgb(135, 135, 135);
+}
+
+/* four colum starts */
+/* lst contanr start */
+.tweetcontent a {
+  font-size: 12px;
+  font-family: Georgia;
+  color: rgb(184, 44, 31);
+  text-decoration: none;
+}
+.tweetcontent p {
+  font-family: Georgia;
+  font-size: 12px;
+  text-align: justify;
+  color: rgb(102, 102, 102);
+}
+.tewtcont {
+  width: auto;
+  margin-top: 12%;
+}
+.tweet hr {
+  width: 80%;
+  height: 2px;
+}
+
+/* .................................................................../ */
+.same hr {
+  width: 80%;
+  height: 2px;
+}
+.linkss {
+  margin-top: 10%;
+}
+.linkss a {
+  border-bottom: 1px;
+  border-color: darkgray;
+  color: rgb(102, 102, 102);
+  border-bottom-style: inset;
+  font-size: 12px;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 8px;
+  font-family: Georgia;
+}
+
+/* '''''''''''''''''''''''''' */
+.post{
+  margin-top: 6%;
+}
+.post h6 {
+  font-size: 14px;
+  font-family: Georgia;
+  color: rgb(102, 102, 102);
+  display: block;
+}
+.biga {
+  font-size: 12px;
+  font-family: Georgia;
+  margin-bottom: 5%;
+  margin-top: 4%;
+  color: rgb(184, 44, 31);
+  text-decoration: none;
+  float: right;
+}
+.littlep {
+  font-family: Georgia;
+  font-size: 10px;
+  text-align: justify;
+  color: rgb(102, 102, 102);
+}
+.littlea {
+  font-family: Georgia;
+  font-size: 10px;
+  text-align: justify;
+  text-decoration: none;
+  color: rgb(184, 44, 31);
+}
+.grid22{
+  display: -webkit-inline-flex;
+}
+.post p {
+  margin: 0;
+  font-family: Georgia;
+  font-size: 12px;
+  text-align: justify;
+  color: rgb(102, 102, 102);
+}
+.fourcoulems h3 {
+  margin-bottom: 10%;
+  font-family: Georgia;
+  font-size: 16px;
+  color: rgb(102, 102, 102);
+}
+.inputs{
+  margin-top: 10%;
+}
+.form-control {
+  background-color: rgb(242, 242, 242);
+  margin-bottom: 15px;
+  border: none;
+  font-family: Georgia;
+  font-size: 13px;
+}
+.submt .form-control {
+  width: 100px;
+  color: rgb(186, 46, 31);
+  font-family: Georgia;
+  font-size: 13px;
+}
+
+.p-3{
+    background-color: rgb(242, 242, 242);
+    font-family: Georgia;
+    font-size: 12px;
+    color: rgb(145, 145, 145);
+}
+.p-3 a{
+    font-family: Georgia;
+    font-size: 12px;
+    text-decoration: none;
+    color: rgb(145, 145, 145);
+}
+.foot {
+  margin-left: 41%;
+}
+@media (min-width:1320px )and ( max-width:1440px){
+  .searchicon{
+    margin-left: 15.4%;
+    margin-top: 4px;
+  }
+  .second-link {
+    color: white;
+    text-decoration: none;
+    margin-left: 60px;
+    font-size: 12px;
+    font-family: Georgia;
+  }
+}
+@media (max-width:1024px){
+  .searchicon{
+    margin-left: 20.3%;
+  }
+  .icon-pack{
+    margin-left: 32%;
+  }
+  .second-link{
+    margin-left: 23px;
+  }
+  .heading h1{
+  font-size: 64px;
+}
+  .box h3{
+    font-size: 20px;
+  }
+  .box2-img {
+    width: 180px;
+  }
+}
+
+@media (max-width:768px){
+.container{
+  width: 100%;
+}
+.hid1{
+  display: block;
+  margin-top: -20%;
+}
+.hid2{
+  display: none;
+}
+.two{
+  display: none;
+}
+.searchbarleft{
+  display: block;
+}
+.searchbarright{
+  display: none;
+}
+.firstnav{
+  margin-left: 290%;
+}
+  .searchicon{
+    margin-left: 22.7%;
+  }
+  .icon-pack{
+    margin-left: 51%;
+  }
+  .custom-form{
+    margin-top: 10px;
+  }
+  .tex h3{
+    font-size: 20px;
+  }
+  .heading h1{
+    font-size: 55px;
+  }
+  .tex{
+    display: block;
+    font-family: Georgia;
+    color: white;
+    margin-left: 8px;
+    margin-top: 5px;
+  }
+  .sidebtn{
+    margin-right: 15px;
+  }
+  
+  .second-link{
+    display: block;
+  }
+  .foot {
+    margin-left: 32%;
+  }
+}
+
+
+@media (max-width:500px) {
+  .searchbarleft{
+    display: block;
+  }
+
+ .hid1{
+   display: block;
+ }
+.two{
+  display: none;
+}
+.firstnav{
+  margin-left: 83%;
+}
+  .navbar-toggler{
+    margin-top: -20%;
+  }
+  .custom-search-box{
+    width: 50%;
+  }
+  .searchicon{
+    margin-left: 39%;
+  }
+.icon-pack{
+    margin-top: 0;
+    margin-left: 5%;
+    margin-bottom: 10px;
+  }
+  .custom-form{
+    margin-top: 16px;
+    margin-bottom: 40px;
+  }
+  .sidebtn {
+    margin-top: 5px;
+  }
+  .tex h3 {
+    font-size: 16px;
+  }
+  .heading h1 {
+    font-size: 50px;
+  }
+  .box1-img {
+    margin-left: 60px;
+  }
+  .box h3{
+    text-align: center;
+  }
+  .fourcoulems h3{
+    text-align: center;
+  }
+  .same hr{
+    margin-left: 43px ;
+  }
+  .tweet hr{
+    margin-left: 43px ;
+  }
+  .foot {
+    margin-left: 10%;
+  }
+  .p-3{
+    text-align: center;
+  }
+}
+
+  @media(max-width:400px){
+    .searchicon{
+      margin-left: 36%;
+  
+    }
+    .firstnav{
+      margin-left: 80%;
+      margin-top: -26%;
+    }
+    .custom-form{
+      margin-top: 16px;
+      margin-bottom: 30px;
+    }
+    .box1-img {
+      margin-left: 33px;
+    }
+    .foot {
+      margin-left: 0%;
+    }
+  }
+@media(max-width:320px){
+  .searchicon{
+    margin-left: 36%;
+
+  }
+  .firstnav{
+    margin-left: 80%;
+    margin-top: -26%;
+  }
+  .custom-form{
+    margin-top: 16px;
+    margin-bottom: 20px;
+  }
+  .box1-img {
+    margin-left: 4px;
+  }
+
+}
